@@ -10,7 +10,6 @@ describe('TaskController', () => {
   let service: TaskService;
 
   beforeEach(async () => {
-    // Crea un módulo de prueba que incluya el servicio y el controlador
     const module: TestingModule = await Test.createTestingModule({
       controllers: [TaskController],
       providers: [
